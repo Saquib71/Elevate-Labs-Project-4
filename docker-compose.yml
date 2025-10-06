@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  web:
+    image: mohdsaquib31/cicd-nginx-demo:latest
+    container_name: cicd-nginx-demo
+    ports:
+      - "80:80"
+    restart: unless-stopped
+
